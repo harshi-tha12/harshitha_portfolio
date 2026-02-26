@@ -21,15 +21,40 @@ function Navbar({ darkMode, setDarkMode }) {
           <span className="logo-icon">🚀</span>
           <span>Portfolio</span>
         </div>
+
+        {/* ✅ Example mobile menu button (uses toggleMenu) */}
+        <div className="menu-toggle" onClick={toggleMenu}>
+          ☰
+        </div>
         
         <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
-          <li><a onClick={() => scrollToSection('home')}>Home</a></li>
-          <li><a onClick={() => scrollToSection('about')}>About</a></li>
-          <li><a onClick={() => scrollToSection('projects')}>Projects</a></li>
-          <li><a onClick={() => scrollToSection('skills')}>Skills</a></li>
-          <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
+          <li>
+            <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#skills" onClick={(e) => { e.preventDefault(); scrollToSection('skills'); }}>
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>
+              Contact
+            </a>
+          </li>
         </ul>
-          </div>
+      </div>
     </nav>
   );
 }
