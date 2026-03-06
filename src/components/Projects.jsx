@@ -16,7 +16,7 @@ function Projects() {
       description: 'The system included AI-powered features for smart issue resolution and prioritization, improving efficiency in IT support operations.',
       tags: ['React.js', 'Node.js', 'AI'],
       link: 'https://helpmateinfapp.web.app',
-      link: 'https://github.com/harshi-tha12/helpmate',
+  
     },
     {
       id: 3,
