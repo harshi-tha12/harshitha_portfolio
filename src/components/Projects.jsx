@@ -8,7 +8,7 @@ function Projects() {
       title: 'Fake Image Detection',
       description: `Developed a CNN-based Fake Image Detection model to classify images as real or AI-generated. Built a Streamlit web app for real-time image classification, allowing users to upload and analyze images instantly. The model detects fake images by learning unique patterns and inconsistencies.`,
       tags: ['Python', 'CNN model', 'Streamlit', 'ML'],
-      link: 'https://github.com/harshi-tha12/fake_image_detection',
+      link: 'https://fakeimagedetection-ml.streamlit.app/',
     },
     {
       id: 2,
@@ -20,11 +20,27 @@ function Projects() {
     },
     {
       id: 3,
+      title: 'FoodieQR',
+      description: `Developed a full-stack Restaurant QR Ordering System enabling customers to scan QR codes to access digital menus and place food orders`,
+      tags: ['Angular', 'Node.js', 'MySQL'],
+      link: 'https://restaurantfoodieappqr.netlify.app',
+    },
+    {
+      id: 4,
+      title: 'User Engagement Analysis',
+      description: `Developed an e-commerce user engagement analysis project, an interactive dashboard to visualize customer behavior
+and purchase trends`,
+      tags: ['Python', 'SQL', 'Streamlit'],
+      link: 'https://userengagementanalysis.streamlit.app/',
+    },
+    {
+      id: 3,
       title: 'Taskeeper',
       description: `Developed a Flutter-based task management app using Hive database for local storage. The app allows users to add, edit, delete, and strike out completed tasks, with each task recorded along with its date and time for better tracking and organization.`,
       tags: ['Flutter', 'Hive'],
       link: 'https://github.com/harshi-tha12/flutter_project_taskeeper',
     },
+    
     {
       id: 4,
       title: 'Weather App',

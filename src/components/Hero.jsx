@@ -4,7 +4,7 @@ import '../styles/Hero.css';
 function Hero() {
   const handleViewResume = () => {
     // Using the exact filename from your public folder
-    const resumePath = process.env.PUBLIC_URL + '/Harshitha.Resume_ (2).pdf';
+    const resumePath = process.env.PUBLIC_URL + '/Harshitha_Resume.pdf';
     window.open(resumePath, '_blank');
   };
 
